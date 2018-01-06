@@ -1,5 +1,5 @@
 {
-  "name": "shivariana",
+  "name": "drprernakohli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shivanikohlii/Shivariana.git"
+    "url": "git+https://github.com/shivanikohlii/dpk.git"
   },
   "author": "Shivani Kohli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shivanikohlii/Shivariana/issues"
+    "url": "https://github.com/shivanikohlii/dpk/issues"
   },
-  "homepage": "https://github.com/shivanikohlii/Shivariana#readme",
+  "homepage": "https://github.com/shivanikohlii/dpk#readme",
   "dependencies": {
     "apiai": "^4.0.3",
     "body-parser": "^1.18.2",
