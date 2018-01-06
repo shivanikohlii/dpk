@@ -2,14 +2,13 @@
 
 // Imports dependencies and set up http server
 const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN;
-const dialogFlow = process.env.DIALOG_FLOW_TOKEN;
 const 
   express = require('express'),
   bodyParser = require('body-parser'),
   app = express().use(bodyParser.json()), // creates express http server
   request = require('request'),
   apiai = require('apiai');
-
+  var dialogFlow = apiai('fcedbdf81fd44949a46c9f0fda0e69bd');
 
 // Sets server port and logs message on success
 app.listen(process.env.PORT || 1337, () => console.log('webhook is listening'));
