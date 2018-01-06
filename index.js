@@ -18,7 +18,7 @@ app.listen(process.env.PORT || 1337, () => console.log('webhook is listening'));
    app.get('/webhook', (req, res) => {
    
      // Your verify token. Should be a random string.
-     let VERIFY_TOKEN = "plswork-why-are-younot"
+     let VERIFY_TOKEN = "why-you-no-workplswork"
   
      // Parse the query params
      let mode = req.query['hub.mode'];
